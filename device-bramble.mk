@@ -95,10 +95,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES_DEBUG += \
     crus_sp_cal
 
-ifeq ($(wildcard vendor/google_devices/bramble/proprietary/device-vendor-bramble.mk),)
-    BUILD_WITHOUT_VENDOR := true
-endif
-
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.bramble
