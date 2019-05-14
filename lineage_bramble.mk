@@ -26,3 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="bramble-user 12 SP2A.220305.012 8177914 release-keys"
 
 BUILD_FINGERPRINT := google/bramble/bramble:12/SP2A.220305.012/8177914:user/release-keys
+
+$(call inherit-product, vendor/google/bramble/bramble-vendor.mk)
