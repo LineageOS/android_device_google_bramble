@@ -25,3 +25,5 @@ include device/google/redbull/BoardConfig-common.mk
 #BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b5-setup.sh
 
 -include vendor/google_devices/$(TARGET_BOOTLOADER_BOARD_NAME)/proprietary/BoardConfigVendor.mk
+
+-include device/google/bramble/BoardConfigLineage.mk

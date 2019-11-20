@@ -16,6 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bramble.mk \
+    $(LOCAL_DIR)/lineage_bramble.mk \
 
 COMMON_LUNCH_CHOICES := \
     aosp_bramble-userdebug \
+    lineage_bramble-userdebug \
