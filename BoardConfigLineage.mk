@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Android Open-Source Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,16 +14,5 @@
 # limitations under the License.
 #
 
-TARGET_BOOTLOADER_BOARD_NAME := bramble
-TARGET_SCREEN_DENSITY := 420
-TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
-USES_DEVICE_GOOGLE_BRAMBLE := true
-
-include device/google/redbull/BoardConfig-common.mk
-
-# Testing related defines
-#BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b5-setup.sh
-
--include vendor/google_devices/$(TARGET_BOOTLOADER_BOARD_NAME)/proprietary/BoardConfigVendor.mk
-
--include device/google/bramble/BoardConfigLineage.mk
+# Boardconfig for lineage_bramble
+-include device/google/redbull/BoardConfigLineage.mk
