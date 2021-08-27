@@ -15,4 +15,8 @@
 #
 
 # Boardconfig for lineage_bramble
+
+# Add before redbull BoardConfigLineage.mk
+BOOT_KERNEL_MODULES += ftm5.ko
+
 -include device/google/redbull/BoardConfigLineage.mk
