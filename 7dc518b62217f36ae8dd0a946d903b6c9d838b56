@@ -16,6 +16,24 @@
       "message": "derp",
       "revId": "7dc518b62217f36ae8dd0a946d903b6c9d838b56",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c758bea_f79f888d",
+        "filename": "BoardConfigLineage.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-12-11T19:18:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46a801cd_e95954e0",
+      "revId": "7dc518b62217f36ae8dd0a946d903b6c9d838b56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
