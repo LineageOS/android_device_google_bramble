@@ -3,3 +3,4 @@ hal_googlebattery dumpstate fd b/238263849
 shell qemu_sf_lcd_density_prop file b/238953936
 su firmware_file filesystem b/238837441
 su ramdump_vendor_fs filesystem b/238971088
+untrusted_app app_data_file dir b/239107943
