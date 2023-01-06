@@ -8,4 +8,5 @@ shell qemu_sf_lcd_density_prop file b/238953936
 shell ramdump_exec file b/239887266
 su firmware_file filesystem b/238837441
 su ramdump_vendor_fs filesystem b/238971088
+system_server vendor_incremental_module file b/264483669
 untrusted_app app_data_file dir b/239107943
