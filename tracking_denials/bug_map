@@ -4,6 +4,7 @@ init gsi_data_file file b/241172508
 init privapp_data_file dir b/241172508
 init system_app_data_file dir b/241172508
 netutils_wrapper netutils_wrapper capability b/239632601
+qtelephony default_android_service service_manager b/264600139
 shell qemu_sf_lcd_density_prop file b/238953936
 shell ramdump_exec file b/239887266
 su firmware_file filesystem b/238837441
