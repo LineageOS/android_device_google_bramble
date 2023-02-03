@@ -1,3 +1,4 @@
+hal_camera_default graphics_config_prop file b/267752967
 hal_drm_widevine default_prop file b/238263416
 init app_data_file dir b/241172508
 init gsi_data_file file b/241172508
