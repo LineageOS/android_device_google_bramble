@@ -25,8 +25,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=bramble \
-    PRIVATE_BUILD_DESC="bramble-user 14 UP1A.231105.001 10817346 release-keys"
+    PRIVATE_BUILD_DESC="bramble-user 14 UP1A.231105.001.B2 11260668 release-keys"
 
-BUILD_FINGERPRINT := google/bramble/bramble:14/UP1A.231105.001/10817346:user/release-keys
+BUILD_FINGERPRINT := google/bramble/bramble:14/UP1A.231105.001.B2/11260668:user/release-keys
 
 $(call inherit-product, vendor/google/bramble/bramble-vendor.mk)
