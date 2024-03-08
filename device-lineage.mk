@@ -14,3 +14,7 @@ PRODUCT_PACKAGES += \
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
+
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-V2-ndk.vendor:64
