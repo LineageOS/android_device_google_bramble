@@ -192,3 +192,6 @@ PRODUCT_PACKAGES += \
 # Workaround for Qualcomm neural network HAL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
+
+PRODUCT_PACKAGES += \
+    NfcOverlayBramble
