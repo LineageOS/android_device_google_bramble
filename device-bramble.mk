@@ -24,8 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 LOCAL_PATH := device/google/bramble
 
 PRODUCT_SOONG_NAMESPACES += \
-    device/google/bramble \
-    hardware/qcom/wlan/legacy
+    device/google/bramble
 
 DEVICE_PACKAGE_OVERLAYS += device/google/bramble/bramble/overlay
 
