@@ -58,12 +58,6 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/audio/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
      $(LOCAL_PATH)/audio/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
      $(LOCAL_PATH)/audio/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb
-
-# Audio ACDB workspace files for QACT
-ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
-PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/audio/acdbdata/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile.qwsp
-endif
 endif
 
 # B5 CS35L41 SPEAKER AMP
@@ -89,10 +83,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/cs35l41/B5mmW/cs35l41-mmW-dsp1-spk-diag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-mmW-dsp1-spk-diag.bin \
     $(LOCAL_PATH)/audio/cs35l41/B5mmW/cs35l41-mmW-dsp1-spk-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-mmW-dsp1-spk-diag.wmfw \
     $(LOCAL_PATH)/audio/cs35l41/B5mmW/R-cs35l41-mmW-dsp1-spk-diag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-mmW-dsp1-spk-diag.bin
-
-# Audio CS35L41 speaker calibration tool
-PRODUCT_PACKAGES_DEBUG += \
-    crus_sp_cal
 
 # USB HAL
 PRODUCT_PACKAGES += \
