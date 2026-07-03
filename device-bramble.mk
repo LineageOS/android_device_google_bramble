@@ -110,10 +110,6 @@ PRODUCT_PRODUCT_PROPERTIES +=\
     ro.vendor.vibrator.hal.steady.shape=1 \
     ro.vendor.vibrator.hal.lptrigger=0
 
-# Dumpstate HAL
-PRODUCT_PACKAGES += \
-    android.hardware.dumpstate@1.1-service.bramble
-
 #per device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bramble/init.bramble.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.bramble.rc
