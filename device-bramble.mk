@@ -84,12 +84,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/cs35l41/B5mmW/cs35l41-mmW-dsp1-spk-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-mmW-dsp1-spk-diag.wmfw \
     $(LOCAL_PATH)/audio/cs35l41/B5mmW/R-cs35l41-mmW-dsp1-spk-diag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-mmW-dsp1-spk-diag.bin
 
-# USB HAL
-PRODUCT_PACKAGES += \
-    android.hardware.usb-service.bramble
-PRODUCT_PACKAGES += \
-    android.hardware.usb.gadget-service.bramble
-
 # Vibrator HAL
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.bramble
