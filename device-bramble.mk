@@ -124,10 +124,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf
 
-# Audio effects
-PRODUCT_PACKAGES += \
-    libqcomvoiceprocessingdescriptors
-
 # Fingerprint HIDL
 include device/google/bramble/fingerprint.mk
 
